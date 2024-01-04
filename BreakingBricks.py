@@ -61,8 +61,8 @@ while not game_over:
 
     if bat_rect[0] + bat_rect.width >= ball_rect[0] >= bat_rect[0] and ball_rect[1] + ball_rect.height >= bat_rect[1] and sy > 0:
         sy*= -1
-        sx*= 1.01
-        sy*= 1.01
+        sx*= 1.05
+        sy*= 1.05
         continue
 
     #top
